@@ -1,0 +1,6 @@
+text_1 = input("Input first text:  ")
+text_2 = input("Input second text: ")
+set_1 = set(text_1)
+set_2 = set(text_2)
+result_set = set_1.intersection(set_2)
+print("Equals char: ",result_set)
